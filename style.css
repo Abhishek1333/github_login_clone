@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(50, 50, 55);
+    font-family: Arial,sans-serif;
+}
+.logo{
+    width: 300px;
+    text-align: center;
+    border-top: 300px;
+}
+.logo p{
+    color: white;
+    font-size: 25px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box{
+    width: 300px;
+    padding:20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(34, 34, 45);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 1px rgba(91, 89, 89, 0.52);
+
+}
+.box p{
+    padding:0px;
+}
+
+.box a{
+     text-decoration: none;
+}
+
+.box input{
+    width: 100%;
+    margin-top: 8px;
+    padding-top:15px;
+    font-size: 15px ;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 10px 1px rgb(16, 16, 165);
+    
+
+}
+.box button{
+    width: 100%;
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(46, 212, 34);
+    border-radius: 5px;
+}
+.box a{
+    padding-left: 90px;
+    color:  rgb(37, 84, 186);
+}
+.signup p{
+    width: 300px;
+    padding: 20px;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(34, 34, 45);
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px 1px rgba(91, 89, 89, 0.52);
+
+}
+.signup a{
+    padding-left: 30px;
+    color: rgb(37, 100, 237);
+    text-decoration: none;
+
+}
+
+
+.end{
+    padding: 30px;
+    
+}
+.end a{
+    padding: 5px;
+    color:rgb(37, 100, 237) ;
+    text-decoration: none;
+}
+
+#contact{
+    color: rgb(166, 169, 169);
+}
+    
